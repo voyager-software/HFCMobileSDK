@@ -16,8 +16,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "HFCMobileSDK",
-            url: "",
-            checksum: ""
+            url: "https://github.com/voyager-software/HFCMobileSDK/releases/download/2.4.0/HFCMobileSDK.xcframework.zip",
+            checksum: "d5502b6faebf4cbcab50dc44ec6bfe5e9173b68051510fd2cb1b57829f13006b"
         ),
     ]
 )
